@@ -1,0 +1,131 @@
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+th{
+    color: darkred;
+    background-color: aquamarine;
+}
+th:hover{
+    background-color: blueviolet;
+    color: chartreuse;
+    cursor: pointer;
+}
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: greenyellow;
+    padding: 15px 0;
+    z-index: 10;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    color: darkred;
+    background-color: aqua;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    border-radius: 8px;
+    padding: 8px;
+}
+nav ul li a:hover{
+    background-color: crimson;
+    color: yellow;
+    cursor: pointer;
+}
+img{
+    display: block;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-size: x-large;
+    color: darkred;
+    background-color: greenyellow;
+}
+h1:hover{
+    background-color: crimson;
+    color: yellow;
+    cursor: pointer;
+}
+p{
+    font-size: large;
+    text-align: center;
+    color: red;
+    background-color: cyan;
+}
+table{
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    background-color: aqua;
+}
+body ul:not(nav ul) {
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+form {
+    text-align: center;
+    max-width: 25%;
+    padding: 5%;
+    margin: 5% auto;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    color: red;
+    background-color: greenyellow;
+    display:block;
+}
+input:placeholder-shown{
+    text-align: center;
+    font-size: medium;
+    font-weight:lighter;
+    color: darkorchid;
+    background-color:antiquewhite;
+}
+body ul:not(nav ul) li {
+    text-align: center;
+    font-size: large;
+    background-color:cornsilk;
+    color: red;
+}
+td{
+    color: red;
+}
+button{
+    height: 50px;
+    width: 80px;
+    margin: 5% auto;
+    font-size: large;
+    border-radius: 8px;
+    color: skyblue;
+    background-color: red;
+    display: block;
+}
+button:hover{
+    color: yellow;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: progress;
+}
+footer{
+    background-color: aqua;
+    font-size: large;
+    text-align: center;
+    color: red;
+}
